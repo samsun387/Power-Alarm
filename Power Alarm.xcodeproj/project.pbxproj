@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FEC6C9B16FC0F2C007AD78E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEC6C9A16FC0F2C007AD78E /* UIKit.framework */; };
+		3FEC6C9D16FC0F2C007AD78E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEC6C9C16FC0F2C007AD78E /* Foundation.framework */; };
+		3FEC6C9F16FC0F2C007AD78E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEC6C9E16FC0F2C007AD78E /* CoreGraphics.framework */; };
+		3FEC6CA516FC0F2C007AD78E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FEC6CA316FC0F2C007AD78E /* InfoPlist.strings */; };
+		3FEC6CA716FC0F2C007AD78E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC6CA616FC0F2C007AD78E /* main.m */; };
+		3FEC6CAB16FC0F2C007AD78E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC6CAA16FC0F2C007AD78E /* AppDelegate.m */; };
+		3FEC6CAD16FC0F2C007AD78E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FEC6CAC16FC0F2C007AD78E /* Default.png */; };
+		3FEC6CAF16FC0F2C007AD78E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FEC6CAE16FC0F2C007AD78E /* Default@2x.png */; };
+		3FEC6CB116FC0F2C007AD78E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FEC6CB016FC0F2C007AD78E /* Default-568h@2x.png */; };
+		3FEC6CB416FC0F2C007AD78E /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FEC6CB216FC0F2C007AD78E /* MainStoryboard_iPhone.storyboard */; };
+		3FEC6CB716FC0F2C007AD78E /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FEC6CB516FC0F2C007AD78E /* MainStoryboard_iPad.storyboard */; };
+		3FEC6CBA16FC0F2C007AD78E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC6CB916FC0F2C007AD78E /* MainViewController.m */; };
+		3FEC6CBD16FC0F2C007AD78E /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC6CBC16FC0F2C007AD78E /* FlipsideViewController.m */; };
+		3FEC6CC516FC0F2C007AD78E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEC6CC416FC0F2C007AD78E /* SenTestingKit.framework */; };
+		3FEC6CC616FC0F2C007AD78E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEC6C9A16FC0F2C007AD78E /* UIKit.framework */; };
+		3FEC6CC716FC0F2C007AD78E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEC6C9C16FC0F2C007AD78E /* Foundation.framework */; };
+		3FEC6CCF16FC0F2C007AD78E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FEC6CCD16FC0F2C007AD78E /* InfoPlist.strings */; };
+		3FEC6CD216FC0F2C007AD78E /* Power_AlarmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC6CD116FC0F2C007AD78E /* Power_AlarmTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FEC6CC816FC0F2C007AD78E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FEC6C8F16FC0F2C007AD78E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FEC6C9616FC0F2C007AD78E;
+			remoteInfo = "Power Alarm";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FEC6C9716FC0F2C007AD78E /* Power Alarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Power Alarm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FEC6C9A16FC0F2C007AD78E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3FEC6C9C16FC0F2C007AD78E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3FEC6C9E16FC0F2C007AD78E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3FEC6CA216FC0F2C007AD78E /* Power Alarm-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Power Alarm-Info.plist"; sourceTree = "<group>"; };
+		3FEC6CA416FC0F2C007AD78E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3FEC6CA616FC0F2C007AD78E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3FEC6CA816FC0F2C007AD78E /* Power Alarm-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Power Alarm-Prefix.pch"; sourceTree = "<group>"; };
+		3FEC6CA916FC0F2C007AD78E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3FEC6CAA16FC0F2C007AD78E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3FEC6CAC16FC0F2C007AD78E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3FEC6CAE16FC0F2C007AD78E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3FEC6CB016FC0F2C007AD78E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3FEC6CB316FC0F2C007AD78E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		3FEC6CB616FC0F2C007AD78E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		3FEC6CB816FC0F2C007AD78E /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		3FEC6CB916FC0F2C007AD78E /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		3FEC6CBB16FC0F2C007AD78E /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		3FEC6CBC16FC0F2C007AD78E /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		3FEC6CC316FC0F2C007AD78E /* Power AlarmTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Power AlarmTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FEC6CC416FC0F2C007AD78E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		3FEC6CCC16FC0F2C007AD78E /* Power AlarmTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Power AlarmTests-Info.plist"; sourceTree = "<group>"; };
+		3FEC6CCE16FC0F2C007AD78E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3FEC6CD016FC0F2C007AD78E /* Power_AlarmTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Power_AlarmTests.h; sourceTree = "<group>"; };
+		3FEC6CD116FC0F2C007AD78E /* Power_AlarmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Power_AlarmTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FEC6C9416FC0F2C007AD78E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FEC6C9B16FC0F2C007AD78E /* UIKit.framework in Frameworks */,
+				3FEC6C9D16FC0F2C007AD78E /* Foundation.framework in Frameworks */,
+				3FEC6C9F16FC0F2C007AD78E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEC6CBF16FC0F2C007AD78E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FEC6CC516FC0F2C007AD78E /* SenTestingKit.framework in Frameworks */,
+				3FEC6CC616FC0F2C007AD78E /* UIKit.framework in Frameworks */,
+				3FEC6CC716FC0F2C007AD78E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FEC6C8E16FC0F2C007AD78E = {
+			isa = PBXGroup;
+			children = (
+				3FEC6CA016FC0F2C007AD78E /* Power Alarm */,
+				3FEC6CCA16FC0F2C007AD78E /* Power AlarmTests */,
+				3FEC6C9916FC0F2C007AD78E /* Frameworks */,
+				3FEC6C9816FC0F2C007AD78E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FEC6C9816FC0F2C007AD78E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FEC6C9716FC0F2C007AD78E /* Power Alarm.app */,
+				3FEC6CC316FC0F2C007AD78E /* Power AlarmTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FEC6C9916FC0F2C007AD78E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FEC6C9A16FC0F2C007AD78E /* UIKit.framework */,
+				3FEC6C9C16FC0F2C007AD78E /* Foundation.framework */,
+				3FEC6C9E16FC0F2C007AD78E /* CoreGraphics.framework */,
+				3FEC6CC416FC0F2C007AD78E /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3FEC6CA016FC0F2C007AD78E /* Power Alarm */ = {
+			isa = PBXGroup;
+			children = (
+				3FEC6CA916FC0F2C007AD78E /* AppDelegate.h */,
+				3FEC6CAA16FC0F2C007AD78E /* AppDelegate.m */,
+				3FEC6CB216FC0F2C007AD78E /* MainStoryboard_iPhone.storyboard */,
+				3FEC6CB516FC0F2C007AD78E /* MainStoryboard_iPad.storyboard */,
+				3FEC6CB816FC0F2C007AD78E /* MainViewController.h */,
+				3FEC6CB916FC0F2C007AD78E /* MainViewController.m */,
+				3FEC6CBB16FC0F2C007AD78E /* FlipsideViewController.h */,
+				3FEC6CBC16FC0F2C007AD78E /* FlipsideViewController.m */,
+				3FEC6CA116FC0F2C007AD78E /* Supporting Files */,
+			);
+			path = "Power Alarm";
+			sourceTree = "<group>";
+		};
+		3FEC6CA116FC0F2C007AD78E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FEC6CA216FC0F2C007AD78E /* Power Alarm-Info.plist */,
+				3FEC6CA316FC0F2C007AD78E /* InfoPlist.strings */,
+				3FEC6CA616FC0F2C007AD78E /* main.m */,
+				3FEC6CA816FC0F2C007AD78E /* Power Alarm-Prefix.pch */,
+				3FEC6CAC16FC0F2C007AD78E /* Default.png */,
+				3FEC6CAE16FC0F2C007AD78E /* Default@2x.png */,
+				3FEC6CB016FC0F2C007AD78E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3FEC6CCA16FC0F2C007AD78E /* Power AlarmTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FEC6CD016FC0F2C007AD78E /* Power_AlarmTests.h */,
+				3FEC6CD116FC0F2C007AD78E /* Power_AlarmTests.m */,
+				3FEC6CCB16FC0F2C007AD78E /* Supporting Files */,
+			);
+			path = "Power AlarmTests";
+			sourceTree = "<group>";
+		};
+		3FEC6CCB16FC0F2C007AD78E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FEC6CCC16FC0F2C007AD78E /* Power AlarmTests-Info.plist */,
+				3FEC6CCD16FC0F2C007AD78E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FEC6C9616FC0F2C007AD78E /* Power Alarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FEC6CD516FC0F2C007AD78E /* Build configuration list for PBXNativeTarget "Power Alarm" */;
+			buildPhases = (
+				3FEC6C9316FC0F2C007AD78E /* Sources */,
+				3FEC6C9416FC0F2C007AD78E /* Frameworks */,
+				3FEC6C9516FC0F2C007AD78E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Power Alarm";
+			productName = "Power Alarm";
+			productReference = 3FEC6C9716FC0F2C007AD78E /* Power Alarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FEC6CC216FC0F2C007AD78E /* Power AlarmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FEC6CD816FC0F2C007AD78E /* Build configuration list for PBXNativeTarget "Power AlarmTests" */;
+			buildPhases = (
+				3FEC6CBE16FC0F2C007AD78E /* Sources */,
+				3FEC6CBF16FC0F2C007AD78E /* Frameworks */,
+				3FEC6CC016FC0F2C007AD78E /* Resources */,
+				3FEC6CC116FC0F2C007AD78E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FEC6CC916FC0F2C007AD78E /* PBXTargetDependency */,
+			);
+			name = "Power AlarmTests";
+			productName = "Power AlarmTests";
+			productReference = 3FEC6CC316FC0F2C007AD78E /* Power AlarmTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FEC6C8F16FC0F2C007AD78E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Kevin Yu";
+			};
+			buildConfigurationList = 3FEC6C9216FC0F2C007AD78E /* Build configuration list for PBXProject "Power Alarm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3FEC6C8E16FC0F2C007AD78E;
+			productRefGroup = 3FEC6C9816FC0F2C007AD78E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FEC6C9616FC0F2C007AD78E /* Power Alarm */,
+				3FEC6CC216FC0F2C007AD78E /* Power AlarmTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FEC6C9516FC0F2C007AD78E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FEC6CA516FC0F2C007AD78E /* InfoPlist.strings in Resources */,
+				3FEC6CAD16FC0F2C007AD78E /* Default.png in Resources */,
+				3FEC6CAF16FC0F2C007AD78E /* Default@2x.png in Resources */,
+				3FEC6CB116FC0F2C007AD78E /* Default-568h@2x.png in Resources */,
+				3FEC6CB416FC0F2C007AD78E /* MainStoryboard_iPhone.storyboard in Resources */,
+				3FEC6CB716FC0F2C007AD78E /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEC6CC016FC0F2C007AD78E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FEC6CCF16FC0F2C007AD78E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3FEC6CC116FC0F2C007AD78E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FEC6C9316FC0F2C007AD78E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FEC6CA716FC0F2C007AD78E /* main.m in Sources */,
+				3FEC6CAB16FC0F2C007AD78E /* AppDelegate.m in Sources */,
+				3FEC6CBA16FC0F2C007AD78E /* MainViewController.m in Sources */,
+				3FEC6CBD16FC0F2C007AD78E /* FlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEC6CBE16FC0F2C007AD78E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FEC6CD216FC0F2C007AD78E /* Power_AlarmTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FEC6CC916FC0F2C007AD78E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FEC6C9616FC0F2C007AD78E /* Power Alarm */;
+			targetProxy = 3FEC6CC816FC0F2C007AD78E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FEC6CA316FC0F2C007AD78E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FEC6CA416FC0F2C007AD78E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3FEC6CB216FC0F2C007AD78E /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FEC6CB316FC0F2C007AD78E /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		3FEC6CB516FC0F2C007AD78E /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FEC6CB616FC0F2C007AD78E /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		3FEC6CCD16FC0F2C007AD78E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FEC6CCE16FC0F2C007AD78E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FEC6CD316FC0F2C007AD78E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FEC6CD416FC0F2C007AD78E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FEC6CD616FC0F2C007AD78E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Power Alarm/Power Alarm-Prefix.pch";
+				INFOPLIST_FILE = "Power Alarm/Power Alarm-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3FEC6CD716FC0F2C007AD78E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Power Alarm/Power Alarm-Prefix.pch";
+				INFOPLIST_FILE = "Power Alarm/Power Alarm-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3FEC6CD916FC0F2C007AD78E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Power Alarm.app/Power Alarm";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Power Alarm/Power Alarm-Prefix.pch";
+				INFOPLIST_FILE = "Power AlarmTests/Power AlarmTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3FEC6CDA16FC0F2C007AD78E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Power Alarm.app/Power Alarm";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Power Alarm/Power Alarm-Prefix.pch";
+				INFOPLIST_FILE = "Power AlarmTests/Power AlarmTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FEC6C9216FC0F2C007AD78E /* Build configuration list for PBXProject "Power Alarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FEC6CD316FC0F2C007AD78E /* Debug */,
+				3FEC6CD416FC0F2C007AD78E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FEC6CD516FC0F2C007AD78E /* Build configuration list for PBXNativeTarget "Power Alarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FEC6CD616FC0F2C007AD78E /* Debug */,
+				3FEC6CD716FC0F2C007AD78E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FEC6CD816FC0F2C007AD78E /* Build configuration list for PBXNativeTarget "Power AlarmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FEC6CD916FC0F2C007AD78E /* Debug */,
+				3FEC6CDA16FC0F2C007AD78E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FEC6C8F16FC0F2C007AD78E /* Project object */;
+}
